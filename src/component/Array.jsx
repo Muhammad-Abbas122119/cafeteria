@@ -1,33 +1,40 @@
 // -----------------ITEM COMPONENT-------------
 
+import blackTea from './imgs/blackTea.png'
+import redTea from './imgs/redTea.png'
+import cofee from './imgs/cofee.png'
+
+
+import testimonialImg from './imgs/testimonial.jpg' // --> for testimonial component
+
 const item = [
     {
-        img:'imgs/blackTea.png',
+        img:blackTea,
         type:'Black tea',
         des:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, sit!'
     },
     {
-        img:'imgs/redTea.png',
+        img:redTea,
         type:'red coffe',
         des:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, sit!'
     },
     {
-        img:'imgs/cofee.png',
+        img:cofee,
         type:'lamon grass tea',
         des:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, sit!'
     },
     {
-        img:'imgs/redTea.png',
+        img:redTea,
         type:'red cofee',
         des:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, sit!'
     },
     {
-        img:'imgs/cofee.png',
+        img:cofee,
         type:'lamon grass tea',
         des:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, sit!'
     },
     {
-        img:'imgs/blackTea.png',
+        img:blackTea,
         type:'Black tea',
         des:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, sit!'
     }
@@ -40,7 +47,7 @@ const testimonial = [
     {
         para:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, rerum quo sit soluta molestias necessitatibus rem dolor voluptatum incidunt beatae, repellat, voluptatibus quisquam unde. Quae est cupiditate id a minima veniam exercitationem excepturi. Harum, tenetur reprehenderit eaque quos facilis laboriosam.',
 
-        img:'imgs/testimonial.jpg',
+        img:testimonialImg,
 
         name:'Abbas',
 
@@ -49,7 +56,7 @@ const testimonial = [
     {
         para:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, rerum quo sit soluta molestias necessitatibus rem dolor voluptatum incidunt beatae, repellat, voluptatibus quisquam unde. Quae est cupiditate id a minima veniam exercitationem excepturi. Harum, tenetur reprehenderit eaque quos facilis laboriosam.',
 
-        img:'imgs/testimonial.jpg',
+        img:testimonialImg,
 
         name:'Abbas',
 
@@ -58,7 +65,7 @@ const testimonial = [
     {
         para:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, rerum quo sit soluta molestias necessitatibus rem dolor voluptatum incidunt beatae, repellat, voluptatibus quisquam unde. Quae est cupiditate id a minima veniam exercitationem excepturi. Harum, tenetur reprehenderit eaque quos facilis laboriosam.',
 
-        img:'imgs/testimonial.jpg',
+        img:testimonialImg,
 
         name:'Abbas',
 

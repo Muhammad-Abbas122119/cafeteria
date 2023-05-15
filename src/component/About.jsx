@@ -1,12 +1,12 @@
 import React from 'react'
-
+import aboutImg from './imgs/about.png'
 const About = () =>{
 return(
     <div id="about" className='mr-4 mt-4'>
         <div className="container">
             <div className="row ">
                 <div className="col-md-6">
-                    <img src="imgs/about.png" alt="" className='about-img' />
+                    <img src={aboutImg} alt="" className='about-img' />
                 </div>
 
                 <div className="col-md-6 text-light d-flex flex-column justify-content-center" >

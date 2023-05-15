@@ -2,6 +2,7 @@ import React , {useState , useEffect} from 'react'
 import OwlCarousel from 'react-owl-carousel'
 import items from './Array'
 const Items = ()=>{
+    
 
     const [owlItems , setOwlItems] = useState(items);
 
@@ -44,7 +45,8 @@ const Items = ()=>{
                             {
                                 owlItems.map((item,index)=>{
                                     const {img , type , des} = item;
-                                    // console.log(reSize);
+                                    console.log(img);
+                                    // console.log(type);
                                     return(
                                         <div className="item row" key={index}>
                                             <div className={reSize>=600?"col-11 m-auto bg-light py-4" :'col-11 m-auto bg-danger py-4'}>

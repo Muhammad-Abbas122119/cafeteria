@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-
+import carouselImg from './imgs/carousel-img.png'
 const Home = () => {
     const [winSize,setWinSize] = useState(window.innerWidth);
 
@@ -26,7 +26,7 @@ window.removeEventListener('resize' , handleSize);
 
                                 <div className=" active carousel-item ">
 
-                                    <img src="imgs/carousel-img.png" alt="" className='float-lg-right' />
+                                    <img src={carouselImg} alt="" className='float-lg-right' />
 
                                     <div className={winSize<993?'carousel-caption bg-light':"headings-position"} >
                                         <span className='h1 mr-5 text-light'>HOT CAFETARIA</span>
@@ -40,7 +40,7 @@ window.removeEventListener('resize' , handleSize);
                                 </div>
                                 <div className="carousel-item">
 
-                                    <img src="imgs/carousel-img.png" alt="" className='float-lg-right' />
+                                    <img src={carouselImg} alt="" className='float-lg-right' />
 
                                     <div className={winSize<993?'carousel-caption bg-light':"headings-position"}>
                                         <span className='h1 mr-5  text-light'>HOT CAFETARIA</span>
